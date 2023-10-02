@@ -1,0 +1,1 @@
+malloc are storage facilities
