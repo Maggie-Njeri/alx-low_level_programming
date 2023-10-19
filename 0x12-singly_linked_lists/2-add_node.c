@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *a dd_node - is used to add a new node at the beginning of a linked list
+ * add_node - is used to add a new node at the beginning of a linked list
  * @head: is a double pointer to the list_t list
  * @str: is a new string to be added in the node
  * Return: the address of the new element on success, or NULL if it fails
