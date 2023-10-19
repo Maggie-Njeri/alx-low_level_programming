@@ -3,7 +3,7 @@
 
 /**
  * print_list - is used to print all the elements
- * @h - is a pointer that shows list_t list to print
+ * @h: - is a pointer that shows list_t list to print
  * Return: will return the number of the nodes printed
  */
 

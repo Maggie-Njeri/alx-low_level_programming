@@ -4,7 +4,7 @@
 
 /**
  * list_len - is used to return the number of nodes n a list.
- * @*h- is the pointer to the list_t list.
+ * @h:  is the pointer to the list_t list.
  * Return: returns the number of elements in a pointer.
  */
 
