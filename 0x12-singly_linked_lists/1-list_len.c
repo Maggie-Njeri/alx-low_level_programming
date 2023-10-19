@@ -8,9 +8,9 @@
  * Return: returns the number of elements in a pointer.
  */
 
-size_t list_len(const list_t, int *h)
+size_t list_len(const list_t *h)
 {
-	size_t n = 0;
+	size_t m = 0;
 
 	while (h)
 	{
