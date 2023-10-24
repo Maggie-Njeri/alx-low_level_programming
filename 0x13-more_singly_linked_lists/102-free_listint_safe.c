@@ -23,7 +23,7 @@ size_t free_listint_safe(listint_t **h)
 	{
 		s =  (*h)->next;
 		free(*h);
-		*h = s
+		*h = s;
 		len++;
 	}
 
