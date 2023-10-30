@@ -1,15 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <fcntl.h>
-
 
 /**
  * create_file - is used to create a file.
  * @filename: is the name of the file to create
  * @text_content: is a NULL terminated string to write to the file
- * Returns: 1 on success, -1 on failure
+ * Return: 1 on success, -1 on failure
  *  (file can not be created, file can not
  *  be written, write “fails”, etc…)
  */
