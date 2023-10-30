@@ -32,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 
 	for (x = 0; text_content[x]; x++)
 		;
-	scrivere = (g, text_content, x);
+	scrivere = write(g, text_content, x);
 
 	if (scrivere == -1)
 		return (-1);
