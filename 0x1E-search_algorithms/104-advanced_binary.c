@@ -6,6 +6,7 @@
  * @array: A pointer to the first element of the [sub]array to search.
  * @left: The starting index of the [sub]array to search.
  * @right: The ending index of the [sub]array to search.
+ *@value: the value being searched
  * Return: If the value is not present, -1.
  *         else, the index where the value is located.
  */
@@ -35,6 +36,7 @@ int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
   *                   of integers using advanced binary search.
   * @array: A pointer to the first element of the array to search.
   * @size: The number of elements in the array.
+  *@value: the value being searched
   * Return: If the value is not present or the array is NULL, -1.
   *         Otherwise, the first index where the value is located.
   */
@@ -46,4 +48,3 @@ int advanced_binary(int *array, size_t size, int value)
 
 	return (advanced_binary_recursive(array, 0, size - 1, value));
 }
-  

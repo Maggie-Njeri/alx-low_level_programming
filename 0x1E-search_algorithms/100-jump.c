@@ -1,12 +1,13 @@
 #include "cerco.h"
 
 /**
- * jump_search - searches for the value in a sorted array
- * 		using jumb  search.
- *@array - pointer to the first element
- *@size - number of elements
- * Return: the first index where the value is located
- * 	or NULL / -1 if the value is not present
+ *jump_search - searches for the value in a sorted array
+ *		using jumb  search.
+ *@array: pointer to the first element
+ *@size: number of elements
+ *@value: the value being searched
+ *Return: the first index where the value is located
+ *	or NULL / -1 if the value is not present
  */
 
 int jump_search(int *array, size_t size, int value)

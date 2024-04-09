@@ -6,7 +6,8 @@
 #include <stdlib.h>
 
 /**
- * @n: Integer
+ * struct listint_s - singly linked list node structure
+ * @n: is an Integer
  * @index: Index of the node in the list
  * @next: Pointer to the next node
  * Description: singly linked list node structure
@@ -21,7 +22,7 @@ typedef struct listint_s
 
 /**
  * struct skiplist_s - Singly linked list with an express lane
- * @n: Integer
+ * @n: is an Integer
  * @index: Index of the node in the list
  * @next: Pointer to the next node
  * @express: Pointer to the next node in the express lane

@@ -2,11 +2,12 @@
 
 /**
   * interpolation_search - Searches for a value in a sorted array
-  *                        of integers using interpolation search.
+  *		using interpolation search.
   * @array: A pointer to the first element of the array to search.
   * @size: The number of elements
+  * @value: the value being searched
   * Return: first index where the value is located or NULL / -1
-  * 	if the value is not present
+  *		if the value is not present
   */
 
 int interpolation_search(int *array, size_t size, int value)

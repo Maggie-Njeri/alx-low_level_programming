@@ -4,8 +4,9 @@
  * linear_skip - Searches for an algorithm in a sorted singly
  *               linked list of integers using linear skip.
  * @list: A pointer to the  head of the linked list to search.
+ * @value: the value being searched
  * Return: If the value is not present is NULL, -1, else,
- * 	 a pointer to the first node where the value is located.
+ * a pointer to the first node where the value is located.
  */
 
 skiplist_t *linear_skip(skiplist_t *list, int value)

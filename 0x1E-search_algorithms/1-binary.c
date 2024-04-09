@@ -1,12 +1,13 @@
 #include "cerco.h"
 
 /**
- * binary_search - searches for the value of a sorted array 
- * 		using a binary search
+ * binary_search - searches for the value of a sorted array
+ *		using a binary search
  * @array: A pointer to the first element
  * @size: number of elements in the array.
+ * @value: the value being searched
  * Return: the index where the value is located or NULL / -1
- * 		if the value is not present
+ *		if the value is not present
  */
 
 int binary_search(int *array, size_t size, int value)
