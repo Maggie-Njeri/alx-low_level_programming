@@ -1,4 +1,4 @@
-#include "cerco.h"
+#include "search_algos.h"
 
 /**
  * binary_search - searches for the value of a sorted array

@@ -1,4 +1,4 @@
-#include "cerco.h"
+#include "search_algos.h"
 
 /**
  *jump_search - searches for the value in a sorted array

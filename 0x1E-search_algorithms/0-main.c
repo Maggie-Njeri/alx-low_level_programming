@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "cerco.h"
+#include "search_algos.h"
 
 /**
  * main - Entry point
